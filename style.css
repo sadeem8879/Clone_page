@@ -1,0 +1,101 @@
+.container1{
+    background: url('../landing_page/images/intro-bg.jpg') no-repeat  center top;
+    background-size: cover;
+    /* background-position: center ; */
+    width: 100%;
+    max-width: 100% !important;
+    height:100vh;
+    color: #fff !important;
+    background-attachment: scroll;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    /* position: absolute; */
+    /* top: 0; */
+}
+.list{
+    color: #fff !important;
+    padding: 50px 0px 10px 0px;
+}
+.list:hover{
+    color: blue !important;
+}
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+#intro{
+    height: 60vh !important;
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.navbar {
+    /* margin: 30px 0px; */
+    height: 10px;
+
+    position: absolute; /* Use absolute positioning */
+    /* top: 2; Align to the top */
+    left: 0;
+    width: 100%; /* Full width */
+    /* z-index: 2; Ensure it overlays the background */
+    background-color:black /* White background with transparency */
+    
+}
+.buttons{
+position: absolute;
+left: 9%;
+}
+.btn1{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-size: 15px;
+    /* position: absolute; */
+    /* left: 4%;
+    top: 29% !important; */
+}
+.btn1:hover{
+    color: black;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out ;
+}
+.btn2{
+    color: #fff;
+    background-color: #f2545f;
+    border: none;
+    font-size: 15px;
+}
+.btn2:hover{
+    color: #fff;
+    background-color: transparent;
+
+    /* transition: all 0.4s ease-in-out ;    */
+     border: 2px solid #fff;
+
+}
+.text-1{
+    position: absolute;
+    /* top: 35%; */
+    /* top: 30%; */
+    margin-top: 200px !important;
+    margin-left: 450px;
+    font-weight: 400;
+}
+.logo{
+    padding: 50px 0px 10px 0px !important;
+
+}
+.text-2{
+    position: absolute;
+    /* top: 35%; */
+    /* top: 30%; */
+    margin-top: 250px !important;
+    margin-left: 390px;
+    font-size: 56px;
+}
