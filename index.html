@@ -6,10 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap demo</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <script src="https://unpkg.com/scrollreveal"></script>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
@@ -30,43 +41,43 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top  " style="background-color: black;">
     <div class="container-fluid bg-dark  ">
-      <a class="navbar-brand text-light logo" href="#">New Event</a>
+      <a class="navbar-brand text-light logo fs-2 fw-bold ms-5 ps-5 mt-2 mb-2" href="#">New Event</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-5 ps-5 list">
-          <li class="nav-item ">
-            <a class="nav-link active text-light" aria-current="page" href="#">INTRO</a>
+        <ul class="navbar-nav ms-auto ps-5 list mt-3 mb-2">
+          <li class="nav-item  me-4">
+            <a class="nav-link active text-light" aria-current="page" href="#home">INTRO</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">OVERVIEW</a>
+          <li class="nav-item me-4">
+            <a class="nav-link text-light" href="#overview">OVERVIEW</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">SPEAKERS</a>
+          <li class="nav-item me-4">
+            <a class="nav-link text-light" href="#speaker">SPEAKERS</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">PROGRAMS</a>
+          <li class="nav-item me-4">
+            <a class="nav-link text-light" href="#program">PROGRAMS</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">REISTER</a>
+          <li class="nav-item me-4">
+            <a class="nav-link text-light" href="#register">REISTER</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">VENUE</a>
+            <li class="nav-item me-4">
+            <a class="nav-link text-light" href="#venue">VENUE</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">SPONSORS</a>
+          <li class="nav-item me-4">
+            <a class="nav-link text-light" href="#sponsor">SPONSORS</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">CONTACT</a>
+          <li class="nav-item me-5">
+            <a class="nav-link text-light" href="#contact">CONTACT</a>
           </li>
 
         </ul>
       </div>
     </div>
   </nav>
-  <section class="container container1 container-fluid" id="intro">
+  <section class="container  container-fluid container1" id="intro">
     <div class="row text-center">
       <div class="col-lg-12 col-md-12 col-sm-12 container1 mt-5 ">
         <h2 class="text-1">July 22 - 26 in San Francisco, CA
@@ -81,65 +92,697 @@
       </div>
     </div>
   </section>
-  <section class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <h3>New Event is a fully responsive one-page template for events, conferences or workshops.</h3>
-        <p>This is a Bootstrap v3.3.6 layout that is responsive and mobile friendly. You may download and modify this
+
+  <section class="container overview-container" id="overview">
+    <div class="row ">
+      <div class="col-lg-6 overview-text mt-4">
+        <h3 class="overview-heading me-5 pe-5">New Event is a fully responsive one-page template for events, conferences
+          or workshops.</h3>
+        <p class="overview-sub-text me-5 pe-5 mt-4">This is a Bootstrap v3.3.6 layout that is responsive and mobile
+          friendly. You may download and modify this
           template for your website. Please tell your friends about templatemo.</p>
-        <p>Quisque facilisis scelerisque venenatis. Nam vulputate ultricies luctus. Lorem ipsum dolor sit amet,
+        <p class="overview-sub-text me-5 pe-5">Quisque facilisis scelerisque venenatis. Nam vulputate ultricies luctus.
+          Lorem ipsum dolor sit amet,
           consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
       </div>
       <div class="col-lg-6">
-        <!-- <img src="../landing_page/images/img1.jpg" alt=""> -->
+        <img src="images/img1.jpg" alt="" class="overview-img" width="800px">
       </div>
     </div>
   </section>
-  <div class="element">
-    This content will animate on scroll!
-  </div><br><br><br>
+  <section class="container overview-black  " id>
+    <div class="row d-flex mt-5 mb-5 pt-5 pb-5">
+      <div class="col-lg-4 ms-auto overview-grid overview-grid-1">
+        <i class="fa-solid fa-user-group mt-4 z-100 text-white overview-icon fs-2 ms-5 me-5 mb-3"
+          style="color: #f2545f !important;"></i>
+        <h1 class="overview-black-text me-5 ms-5 mb-3">650 Participants
+        </h1>
+        <p class="overview-black-text-2 overview-icon-text ms-5 me-5" style="margin-left: 40px;">Quisque ut libero
+          sapien. Integer tellus nisl, efficitur sed dolor at, vehicula
+          finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+      </div>
+      <div class="col-lg-4 ms-auto overview-grid overview-grid-2">
+        <i class=" fa-solid fa-clock mt-4 z-100 text-white fs-2 mb-3" style="color: #f2545f !important;"></i>
+        <h1 class="overview-black-text mb-3">24 Programs
+        </h1>
+        <p class="overview-black-text-2 overview-icon-text ms-5 me-5">Quisque ut libero sapien. Integer tellus nisl,
+          efficitur sed dolor at, vehicula
+          finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+      </div>
+      <div class="col-lg-4 overview-grid-3 overview-grid mt-3 ">
+
+        <i class="fa-solid fa-microphone mt-3 z-100 text-white fs-2 mb-2" style="color: #f2545f !important;"></i>
+        <h1 class="overview-black-text mb-3">11 Speakers
+        </h1>
+        <p class="overview-black-text-2 overview-icon-text ms-5 me-5">Quisque ut libero sapien. Integer tellus nisl,
+          efficitur sed dolor at, vehicula
+          finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+
+      </div>
+    </div>
+  </section>
+  <!-- <br><br><br><br> -->
+  <section class="container overview-section-3   mt-5">
+    <div class="row d-flex">
+      <div class="col-lg-6 ms-">
+        <h2 class="overview-section-3-text-1 mb-4">WATCH VIDEO</h2>
+        <p class="overview-section-3-text-2">Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at,
+          vehicula finibus massa. Sed tincidunt
+          metus sed eleifend suscipit.</p>
+        <p class="overview-black-text-3 fw-normal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet.
+          Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.</p>
+      </div>
+      <div class="col-lg-6 overview-3-bg-img ">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XDPwXQjAlB0?si=EQ3Ee496JN8eFs28"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="ms-4"> </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="container service-container " id="speaker">
+    <h1 class="overview-section-3-text-1 text-center">CREATIVE SPEAKERS</h1>
+    <p class="overview-sub-text text-center fs-5 mb-5 pb-4 mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing
+      elit. Odio, sunt!</p>
+    <div id="serviceCarousel" class="carousel slide " data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <div class="row ">
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <img src="images/service-img-1.jpg" class="card-img-top" alt="Service 1">
+                <div class="card-body">
+                  <p class="card-text  text-center fs-5 service-card-text">David Yoon</p>
+                  <p class="text-center"">Creaive Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class=" col-lg-3">
+                  <div class="card shadow">
+                    <img src="images/service-img-2.jpg" class="card-img-top" alt="Service 2">
+                    <div class="card-body">
+                      <p class="card-text  text-center fs-5">Je Marly Lee</p>
+                      <p class="text-center">Web Specalist</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card shadow">
+                    <img src="images/service-img-3.jpg" class="card-img-top" alt="Service 3">
+                    <div class="card-body">
+                      <p class="card-text text-center fs-5">Jonathan Doe</p>
+                      <p class="text-center">Frontend Dev</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card shadow">
+                    <img src="images/service-img-4.jpg" class="card-img-top" alt="Service 4">
+                    <div class="card-body">
+                      <p class="card-text text-center fs-5">Genny Green</p>
+                      <p class="text-center">Ui Designer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row ms-auto">
+                <div class="col-lg-3">
+                  <div class="card shadow">
+                    <img src="images/service-img-5.jpg" class="card-img-top" alt="Service 5">
+                    <div class="card-body">
+                      <p class="card-text text-center fs-5">Elite Hamilton</p>
+                      <p class="text-center">Marketing guru</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card shadow">
+                    <img src="images/service-img-1.jpg" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                      <p class="card-text text-center fs-5">David Yoon</p>
+                      <p class="text-center">Creaive Designer</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card shadow">
+                    <img src="images/service-img-2.jpg" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                      <p class="card-text text-center fs-5">Je Marly Lee</p>
+                      <p class="text-center">Web Specalist</p </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card shadow">
+                    <img src="images/service-img-4.jpg" class="card-img-top" alt="Service 4">
+                    <div class="card-body">
+                      <p class="card-text text-center fs-5">Genny Green</p>
+                      <p class="text-center">Ui Designer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev card-btn" type="button" data-bs-target="#serviceCarousel"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+  </section>
+  <section class="container   Programs-container" id="program">
+    <h1 class="overview-section-3-text-1  mb-2 text-uppercase text-start ms-5 ps-4 ">Our Programs</h1>
+    <p class="overview-sub-text text-start ms-5 ps-4   mt-2">Quisque ut libero sapien. Integer tellus nisl,
+      efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+    <div class="row ms-5">
+      <div class="col-lg-10">
+        <div class="container my-4">
+          <!-- Tabs navigation -->
+          <ul class="nav nav-tabs" id="homePageTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button"
+                role="tab" aria-controls="tab1" aria-selected="true">FIRST DAY</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button"
+                role="tab" aria-controls="tab2" aria-selected="false">SECOND DAY</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button"
+                role="tab" aria-controls="tab3" aria-selected="false">THIRD DAY</button>
+            </li>
+          </ul>
+
+          <!-- Tabs content -->
+          <div class="tab-content" id="homePageTabsContent">
+            <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+              <div class="d-flex">
+                <div class="col-lg-2">
+                  <img src="images/program-img1.jpg" height="130px" class="rounded-circle mt-5" alt="">
+                </div>
+                <div class="col-lg-10 d-flex mt-4 pt-3  ">
+                  <i class=" fa-regular fa-clock mt-4 me-1 z-100 program-icon ms-3 text-dark   fw-normal"></i>
+                  <p class="mt-3 pt-1 fw-bold program-sm-text ">09.00 AM </p>
+                  <i class="fa-solid fa-location-dot mt-4 z-100 ms-2 me-1 program-icon text-dark   mb-3"></i>
+
+                  <p class="mt-3 fw-bold program-sm-text pt-1">Room 240</p>
+
+                </div>
+              </div>
+              <div class="flex-wrap program-text ms-5 ">
+                <h4>Introduction to Design
+                </h4>
+                <p class="overview-sub-text fw-bold">By Jenny Green
+                </p>
+                <p class="overview-sub-text program-sm-text-2">Maecenas accumsan metus turpis, eu faucibus ligula
+                  interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum.</p>
+              </div>
+              <!-- <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab"> -->
+              <div class="d-flex mt-5">
+                <div class="col-lg-2">
+                  <img src="images/program-img2.jpg" height="130px" class="rounded-circle mt-5" alt="">
+                </div>
+                <div class="col-lg-10 d-flex mt-4 pt-3  ">
+                  <i class=" fa-regular fa-clock mt-4 me-1 z-100 program-icon ms-3 text-dark   fw-normal"></i>
+                  <p class="mt-3 pt-1 fw-bold program-sm-text ">10.00 AM </p>
+                  <i class="fa-solid fa-location-dot mt-4 z-100 ms-2 me-1 program-icon text-dark   mb-3"></i>
+
+                  <p class="mt-3 fw-bold program-sm-text pt-1">Room 360</p>
+
+                </div>
+              </div>
+              <div class="flex-wrap program-text-3 ms-5 ">
+                <h4>Front-End Development
+
+                </h4>
+                <p class="overview-sub-text fw-bold">By Johnathan Mark
+
+                </p>
+                <p class="overview-sub-text program-sm-text-2">Mauris at tincidunt felis, vitae aliquam magna. Sed
+                  aliquam fringilla vestibulum. Praesent ullamcorper mauris fermentum turpis scelerisque rutrum eget
+                  eget turpis.</p>
+              </div>
+              <!-- </div> -->
+              <!-- <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab"> -->
+              <div class="d-flex mt-5">
+                <div class="col-lg-2">
+                  <img src="images/program-img3.jpg" height="130px" class="rounded-circle mt-5" alt="">
+                </div>
+                <div class="col-lg-10 d-flex mt-4 pt-3  ">
+                  <i class=" fa-regular fa-clock mt-4 me-1 z-100 program-icon ms-3 text-dark   fw-normal"></i>
+                  <p class="mt-3 pt-1 fw-bold program-sm-text ">11.00 AM </p>
+                  <i class="fa-solid fa-location-dot mt-4 z-100 ms-2 me-1 program-icon text-dark   mb-3"></i>
+
+                  <p class="mt-3 fw-bold program-sm-text pt-1">Room 450</p>
+
+                </div>
+              </div>
+              <div class="flex-wrap program-text-4 ms-5 ">
+                <h4>Social Media Marketing
+
+                </h4>
+                <p class="overview-sub-text fw-bold">By Johnathan Doe
+
+                </p>
+                <p class="overview-sub-text program-sm-text-2">Nam pulvinar, elit vitae rhoncus pretium, massa urna
+                  bibendum ex, aliquam efficitur lorem odio vitae erat. Integer rutrum viverra magna, nec ultrices risus
+                  rutrum nec.</p>
+              </div>
+              <!-- </div> -->
+            </div>
+            <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+              <div class="d-flex">
+                <div class="col-lg-2">
+                  <img src="images/program-img4.jpg" height="130px" class="rounded-circle mt-5" alt="">
+                </div>
+                <div class="col-lg-10 d-flex mt-4 pt-3  ">
+                  <i class=" fa-regular fa-clock mt-4 me-1 z-100 program-icon ms-3 text-dark   fw-normal"></i>
+                  <p class="mt-3 pt-1 fw-bold program-sm-text ">11.00 AM </p>
+                  <i class="fa-solid fa-location-dot mt-4 z-100 ms-2 me-1 program-icon text-dark   mb-3"></i>
+
+                  <p class="mt-3 fw-bold program-sm-text pt-1">Room 240</p>
+
+                </div>
+              </div>
+              <div class="flex-wrap program-text ms-5 ">
+                <h4>Backend Development
+
+                </h4>
+                <p class="overview-sub-text fw-bold">
+                  By Matt Lee
+
+
+                </p>
+                <p class="overview-sub-text program-sm-text-2">
+                  Integer rutrum viverra magna, nec ultrices risus rutrum nec. Pellentesque interdum vel nisi nec
+                  tincidunt. Quisque facilisis scelerisque venenatis. Nam vulputate ultricies luctus.
+                </p>
+              </div>
+              <!-- <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab"> -->
+              <div class="d-flex mt-5">
+                <div class="col-lg-2">
+                  <img src="images/program-img5.jpg" height="130px" class="rounded-circle mt-5" alt="">
+                </div>
+                <div class="col-lg-10 d-flex mt-4 pt-3  ">
+                  <i class=" fa-regular fa-clock mt-4 me-1 z-100 program-icon ms-3 text-dark   fw-normal"></i>
+                  <p class="mt-3 pt-1 fw-bold program-sm-text ">01.00 AM </p>
+                  <i class="fa-solid fa-location-dot mt-4 z-100 ms-2 me-1 program-icon text-dark   mb-3"></i>
+
+                  <p class="mt-3 fw-bold program-sm-text pt-1">Room 450</p>
+
+                </div>
+              </div>
+              <div class="flex-wrap program-text-3 ms-5 ">
+                <h4>
+                  Web Application Lite
+
+                </h4>
+                <p class="overview-sub-text fw-bold">
+                  By David Orlando
+
+                </p>
+                <p class="overview-sub-text program-sm-text-2">
+                  Aliquam faucibus lobortis dolor, id pellentesque eros pretium in. Aenean in erat ut quam aliquet
+                  commodo. Vivamus aliquam pulvinar ipsum ut sollicitudin. Suspendisse quis sollicitudin mauris.
+                </p>
+              </div>
+              <!-- </div> -->
+              <!-- <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab"> -->
+              <div class="d-flex mt-5">
+                <div class="col-lg-2">
+                  <img src="images/program-img6.jpg" height="130px" class="rounded-circle mt-5" alt="">
+                </div>
+                <div class="col-lg-10 d-flex mt-4 pt-3  ">
+                  <i class=" fa-regular fa-clock mt-4 me-1 z-100 program-icon ms-3 text-dark   fw-normal"></i>
+                  <p class="mt-3 pt-1 fw-bold program-sm-text ">03.00 AM </p>
+                  <i class="fa-solid fa-location-dot mt-4 z-100 ms-2 me-1 program-icon text-dark   mb-3"></i>
+
+                  <p class="mt-3 fw-bold program-sm-text pt-1">Room 650</p>
+
+                </div>
+              </div>
+              <div class="flex-wrap program-text-4 ms-5 ">
+                <h4>
+                  Professional UX Design
+                </h4>
+                <p class="overview-sub-text fw-bold">
+                  By James Lee Mark
+                </p>
+                <p class="overview-sub-text program-sm-text-2">Nam pulvinar, elit vitae rhoncus pretium, massa urna
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                  laoreet. Dolore magna aliquam erat volutpat.
+                </p>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+              <div class="d-flex">
+                <div class="col-lg-2">
+                  <img src="images/program-img-1.jpg" height="130px" class="rounded-circle mt-5" alt="">
+                </div>
+                <div class="col-lg-10 d-flex mt-4 pt-3  ">
+                  <i class=" fa-regular fa-clock mt-4 me-1 z-100 program-icon ms-3 text-dark   fw-normal"></i>
+                  <p class="mt-3 pt-1 fw-bold program-sm-text ">03.00 AM </p>
+                  <i class="fa-solid fa-location-dot mt-4 z-100 ms-2 me-1 program-icon text-dark   mb-3"></i>
+
+                  <p class="mt-3 fw-bold program-sm-text pt-1">Room 750</p>
+
+                </div>
+              </div>
+              <div class="flex-wrap program-text ms-5 ">
+                <h4>
+                  Online Shopping Business
+                </h4>
+                <p class="overview-sub-text fw-bold">
+                  By Michael Walker
+                </p>
+                <p class="overview-sub-text program-sm-text-2">
+                  Aliquam faucibus lobortis dolor, id pellentesque eros pretium in. Aenean in erat ut quam aliquet
+                  commodo. Vivamus aliquam pulvinar ipsum ut sollicitudin. Suspendisse quis sollicitudin mauris.
+                </p>
+              </div>
+              <!-- <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab"> -->
+              <div class="d-flex mt-5">
+                <div class="col-lg-2">
+                  <img src="images/program-img-2.jpg" height="130px" class="rounded-circle mt-5" alt="">
+                </div>
+                <div class="col-lg-10 d-flex mt-4 pt-3  ">
+                  <i class=" fa-regular fa-clock mt-4 me-1 z-100 program-icon ms-3 text-dark   fw-normal"></i>
+                  <p class="mt-3 pt-1 fw-bold program-sm-text ">05.00 AM </p>
+                  <i class="fa-solid fa-location-dot mt-4 z-100 ms-2 me-1 program-icon text-dark   mb-3"></i>
+
+                  <p class="mt-3 fw-bold program-sm-text pt-1">Room 850</p>
+
+                </div>
+              </div>
+              <div class="flex-wrap program-text-3 ms-5 ">
+                <h4>
+                  Introduction to Mobile App
+
+                </h4>
+                <p class="overview-sub-text fw-bold">
+                  By Cherry Stella
+
+                </p>
+                <p class="overview-sub-text program-sm-text-2">
+                  Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis
+                  hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.
+                </p>
+              </div>
+              <!-- </div> -->
+              <!-- <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab"> -->
+              <div class="d-flex mt-5">
+                <div class="col-lg-2">
+                  <img src="images/program-img-3.jpg" height="130px" class="rounded-circle mt-5" alt="">
+                </div>
+                <div class="col-lg-10 d-flex mt-4 pt-3  ">
+                  <i class=" fa-regular fa-clock mt-4 me-1 z-100 program-icon ms-3 text-dark   fw-normal"></i>
+                  <p class="mt-3 pt-1 fw-bold program-sm-text ">07.00 AM </p>
+                  <i class="fa-solid fa-location-dot mt-4 z-100 ms-2 me-1 program-icon text-dark   mb-3"></i>
+
+                  <p class="mt-3 fw-bold program-sm-text pt-1">Room 750</p>
+
+                </div>
+              </div>
+              <div class="flex-wrap program-text-4 ms-5 ">
+                <h4>
+                  Bootstrap UI Design
+                </h4>
+                <p class="overview-sub-text fw-bold">
+                  By John David
+                </p>
+                <p class="overview-sub-text program-sm-text-2">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                  laoreet. Dolore magna aliquam erat volutpat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="container register-section " id="register">
+    <div class="row">
+      <div class="col-lg-6 ms-5 ps-5">
+        <h2 class="register-text-1 mt-5">Register Here
+        </h2>
+        <h3 class="register-text-2">Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit
+          amet tellus iaculis
+          hendrerit. </h3>
+        <p class="register-text-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+          euismod tincidunt ut laoreet.
+          Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.</p>
+      </div>
+      <div class="col-lg-6 register-grid-2  ">
+        <input class="register-form  mb-3" type="text" id="inputPassword5" placeholder="First Name" class="form-control"
+          aria-describedby="passwordHelpBlock">
+        <input class="register-form mb-3" type="text" id="inputPassword5" placeholder="Last Name" class="form-control"
+          aria-describedby="passwordHelpBlock">
+        <input class="register-form mb-3" type="text" id="inputPassword5" placeholder="Phone Number"
+          class="form-control" aria-describedby="passwordHelpBlock">
+        <input class="register-form mb-3" type="text" id="inputPassword5" placeholder="Email Address"
+          class="form-control" aria-describedby="passwordHelpBlock">
+        <br>
+        <input type="button" value="REGISTER" class="register-btn pt-3 pb-3 ps-5 pe-5">
+
+      </div>
+    </div>
+  </section>
+  <section class="container mt-5 ">
+    <div class="row">
+      <h2 class="mt-5  text-center">
+        Do you have Questions?
+      </h2>
+      <p class="text-center mb-5">
+        Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.
+      </p>
+      <div class="col-lg-12">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed shadow accordion mb-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+                style="background-color: #ffe5d9;">
+                What is Responsive Design
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body shadow">
+                <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue
+                  vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit
+                  amet, maecenas eget vestibulum justo imperdiet.</p>
+                <p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis
+                  hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed mb-2 shadow" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"
+                  style="background-color: #ffe5d9;">
+                  What are latest UX Developments
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body shadow">
+                  <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue
+                    vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit
+                    amet, maecenas eget vestibulum justo imperdiet.</p>
+                  <p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus
+                    iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed mb-2 shadow" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"
+                  style="background-color: #ffe5d9;">
+                  What things about Social Media Will be discussed </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body shadow">
+                  <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue
+                    vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit
+                    amet, maecenas eget vestibulum justo imperdiet.</p>
+                  <p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus
+                    iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </section>
+  <section class="container venue-container mt-5" id="venue">
+    <div class="row">
+      <div class="col-lg-6 ">
+        <h2 class="venue-text-1 mb-3">
+          Venue
+        </h2>
+        <div class="venue-text-2 mb-3">
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+            laoreet.
+            Dolore magna aliquam erat volutpat. </p>
+        </div>
+        <div class=" venue-text-3">
+          <h3 class="fs-5 lh-base  mt-4">New Event <br>120 Market Street, Suite 110
+            <br>San Francisco, CA 10110
+            <br>Tel: 010-020-0120
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container" id="sponsor">
+    <div class="row">
+      <h2 class="text-center sponsor-container mb-2 sponsor-text-1 fw-semibold">Our Sponsors
+      </h2>
+      <p class="text-center sponsor-text-2 fw-semibold mb-3">Lorem ipsum dolor sit amet, maecenas eget vestibulum justo
+        imperdiet.
+      </p>
+      <div class="col-lg-3">
+        <img src="images/sponsor-img1.jpg" alt="" class="shadow me-2 mt-4" height="150px" width="260px">
+      </div>
+      <div class="col-lg-3">
+        <img src="images/sponsor-img2.jpg" alt="" class="shadow me-2 mt-4" height="150px" width="260px">
+      </div>
+      <div class="col-lg-3">
+        <img src="images/sponsor-img3.jpg" alt="" class="shadow me-2 mt-4" height="150px" width="260px">
+      </div>
+      <div class="col-lg-3">
+        <img src="images/sponsor-img4.jpg" alt="" class="shadow me-2 mt-4" height="150px" width="260px">
+
+      </div>
+    </div>
+  </section>
+  <section class="container contact-container w-100" id="contact">
+    <div class="row ">
+      <div class="col-lg-6 mt-5">
+        <h2 class="contact-text-1 ">New Event
+        </h2>
+        <div class="contact-text-2">
+          <p>
+            Proin sodales convallis urna eu condimentum. Morbi tincidunt augue eros, vitae pretium mi condimentum eget.
+            Suspendisse eu turpis sed elit pretium congue.
+          </p>
+          <p>
+            Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum. Praesent ullamcorper
+            mauris
+            fermentum turpis scelerisque rutrum eget eget turpis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+            laoreet.
+            Dolore magna aliquam erat volutpat. Lorem ipsum dolor.
+          </p>
+        </div>
+        <input type="button" value="DONWLOAD NOW" class="contact-btn-2 mt-4  pt-3 pb-3 ps-5 pe-5">
+
+      </div>
+      <div class="col-lg-6 contact-grid-2 contact-form ms-4 shadow ">
+        <h2 class="contact-grid-2-text text-center mt-5 ">
+          Keep in touch
+        </h2>
+        <div class="forms">
+          <div class="col-lg-10 ms-4  ">
+            <input class="contact-form  mb-2 " type="password" id="text" class="form-control"
+              aria-describedby="passwordHelpBlock" placeholder="NAME">
+          </div>
+          <div class="col-lg-10 ms-4 mb-1 ">
+            <input class="contact-form  " type="password" placeholder="Email" id="Email" class="form-control"
+              aria-describedby="passwordHelpBlock">
+          </div>
+          <div class="col-lg-10 ms-4 mb-2 ">
+            <input class="contact-form  pb-5 " style="padding-bottom: 90px !important;" type="password"
+              placeholder="Message" id="Email" class="form-control" aria-describedby="passwordHelpBlock">
+            <input type="button" class="contact-btn w-50 pt-3 pb-3 " value="SEND">
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <footer class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h6 class="text-center mt-5 ms-3">Copyright © 2016 Your Company | Design: Templatemo
+          <ul class="mt-4 text-center">
+            <i class="fa-brands fa-facebook-f icon-1"></i>
+            <i class="fa-brands fa-twitter icon"></i>
+            <i class="fa-solid fa-globe icon"></i>
+            <i class="fa-brands fa-behance icon  "></i>
+            <i class="fa-brands fa-google-plus-g icon"></i>
+          </ul>
+        </h6>
+      </div>
+    </div>
+  </footer>
   <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="in"></script>
   <script>
     // Initialize ScrollReveal
-    ScrollReveal().reveal('.text-1', {
-      origin: 'bottom',   // The direction from which the element will appear
-      distance: '50px',   // The distance the element moves
-      duration: 1000,     // Animation duration in milliseconds
-      delay: 200,         // Delay before the animation starts
-      reset: false        // Whether the animation should repeat on scroll
+    ScrollReveal().reveal('.text-1, .text-2, .btn1, .overview-black', {
+      origin: 'bottom',
+      distance: '50px',
+      duration: 1000,
+      delay: 200,
+      reset: false
     });
+
     ScrollReveal().reveal('.navbar', {
-      origin: 'top',   // The direction from which the element will appear
-      distance: '50px',   // The distance the element moves
-      duration: 1000,     // Animation duration in milliseconds
-      delay: 200,         // Delay before the animation starts
-      reset: true        // Whether the animation should repeat on scroll
+      origin: 'top',
+      distance: '50px',
+      duration: 1000,
+      delay: 200,
+      reset: true
     });
-    ScrollReveal().reveal('.text-2', {
-      origin: 'bottom',   // The direction from which the element will appear
-      distance: '50px',   // The distance the element moves
-      duration: 1000,     // Animation duration in milliseconds
-      delay: 200,         // Delay before the animation starts
-      reset: false        // Whether the animation should repeat on scroll
+
+    ScrollReveal().reveal('.btn2, .icon, .container, .overview-section-3', {
+      origin: 'right',
+      distance: '350px',
+      duration: 1000,
+      delay: 200,
+      reset: false
     });
-    ScrollReveal().reveal('.btn1', {
-      origin: 'left',   // The direction from which the element will appear
-      distance: '50px',   // The distance the element moves
-      duration: 1000,     // Animation duration in milliseconds
-      delay: 200,         // Delay before the animation starts
-      reset: false        // Whether the animation should repeat on scroll
+
+    ScrollReveal().reveal('.icon-1', {
+      origin: 'left',
+      distance: '350px',
+      duration: 1000,
+      delay: 200,
+      reset: false
     });
-    ScrollReveal().reveal('.btn2', {
-      origin: 'right',   // The direction from which the element will appear
-      distance: '350px',   // The distance the element moves
-      duration: 1000,     // Animation duration in milliseconds
-      delay: 200,         // Delay before the animation starts
-      reset: false        // Whether the animation should repeat on scroll
+
+    // ScrollReveal configurations for IDs
+    ScrollReveal().reveal('#home, #overview, #speaker, #program, #register, #venue, #sponsor, #contact, footer', {
+      origin: 'right',
+      distance: '350px',
+      duration: 1000,
+      delay: 200,
+      reset: false
     });
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
